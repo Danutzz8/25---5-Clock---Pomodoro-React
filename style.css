@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  background-color: #353b48;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+ 
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 25px;
+}
+
+.timer-container h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+ button {
+  background-color: transparent;
+  color: #f6e58d;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.actions-wrapper span {
+  font-size: 45px;
+  margin: 0 20px;
+  width: 50px;
+  text-align: center;
+}
+
+.clock-container {
+  text-align: center;
+  background-color: #576574;
+  border-radius: 25px;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px
+}
+
+.clock-container span {
+  font-size: 60px; 
+}
+
+@media (max-width:320px) {
+    .timer-container h2 {
+        font-size: 1rem;
+    }
+
+    .clock-container {
+        width: 60%;
+    }
+
+    #session-length {
+        font-size: 1.3rem;
+    }
+
+    #break-length {
+        font-size: 1.3rem;
+        margin: auto;
+    
+    }
+
+    #timer-label {
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    #time-left {
+        font-size: 2rem;
+    }
+
+    .actions-wrapper span {
+        padding: 5px;
+        margin: auto;
+    }
+
+    button {
+        font-size: .5rem;
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+        width: 20px;
+    }
+}
